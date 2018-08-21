@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/adglogo"
+        android:layout_marginTop="25dp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/login"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/login" />
+
+    <EditText
+        android:id="@+id/reg"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box"
+        android:textColor="@android:color/black"
+        android:hint="Reg No."
+        android:inputType="textCapSentences"
+        android:textColorHint="@android:color/black"
+
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box"
+        android:textColor="@android:color/black"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black"
+
+
+        />
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/btnlogin"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnlogin"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create"
+        android:text="Create an Account"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:textColor="@android:color/black"
+        />
+
+</LinearLayout>

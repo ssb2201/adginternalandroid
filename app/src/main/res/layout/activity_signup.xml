@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".signup">
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/adglogo"
+        android:layout_marginTop="25dp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/cre"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/create" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box"
+        android:textColor="@android:color/background_dark"
+        android:hint="Name"
+        android:inputType="textCapSentences"
+        android:textColorHint="@android:color/black"
+
+        />
+    <EditText
+        android:id="@+id/reg"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box"
+        android:textColor="@android:color/background_dark"
+        android:hint="Reg no"
+        android:textAllCaps="true"
+         android:textColorHint="@android:color/black"
+        android:inputType="textCapSentences"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/box"
+        android:textColor="@android:color/background_dark"
+        android:hint="Password"
+        android:textColorHint="@android:color/black"
+        android:inputType="textPassword"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/btnsignup"
+        android:id="@+id/btnup"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:id="@+id/signin"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+
+
+
+        />
+
+
+
+</LinearLayout>
